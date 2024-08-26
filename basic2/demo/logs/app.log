@@ -1,0 +1,46 @@
+2024-08-26 16:23:25.108  INFO 83322 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.22 on jeongseulgiui-MacBookAir.local with PID 83322 (/Users/wisdom/Documents/GitHub/docker-practice/basic2/demo/build/classes/java/main started by wisdom in /Users/wisdom/Documents/GitHub/docker-practice/basic2/demo)
+2024-08-26 16:23:25.109  INFO 83322 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-26 16:23:25.363  INFO 83322 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26 16:23:25.370  INFO 83322 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-08-26 16:23:25.591  INFO 83322 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-26 16:23:25.596  INFO 83322 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26 16:23:25.596  INFO 83322 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2024-08-26 16:23:25.641  INFO 83322 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26 16:23:25.641  INFO 83322 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 506 ms
+2024-08-26 16:23:25.714  INFO 83322 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26 16:23:25.731  INFO 83322 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-08-26 16:23:25.802  INFO 83322 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-26 16:23:25.843  INFO 83322 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26 16:23:25.878  INFO 83322 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26 16:23:25.885  INFO 83322 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2024-08-26 16:23:26.107  INFO 83322 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-26 16:23:26.111  INFO 83322 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 16:23:26.127  WARN 83322 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26 16:23:26.254  INFO 83322 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-26 16:23:26.259  INFO 83322 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.368 seconds (JVM running for 1.562)
+2024-08-26 16:24:42.315  INFO 83322 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 16:24:42.317  INFO 83322 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26 16:24:42.324  INFO 83322 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-26 16:24:45.774  INFO 83940 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.22 on jeongseulgiui-MacBookAir.local with PID 83940 (/Users/wisdom/Documents/GitHub/docker-practice/basic2/demo/build/classes/java/main started by wisdom in /Users/wisdom/Documents/GitHub/docker-practice/basic2/demo)
+2024-08-26 16:24:45.775  INFO 83940 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-26 16:24:46.019  INFO 83940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26 16:24:46.027  INFO 83940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-08-26 16:24:46.236  INFO 83940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-26 16:24:46.241  INFO 83940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26 16:24:46.241  INFO 83940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2024-08-26 16:24:46.289  INFO 83940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26 16:24:46.289  INFO 83940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 490 ms
+2024-08-26 16:24:46.358  INFO 83940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26 16:24:46.375  INFO 83940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-08-26 16:24:46.443  INFO 83940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-26 16:24:46.478  INFO 83940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-26 16:24:46.509  INFO 83940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-26 16:24:46.515  INFO 83940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2024-08-26 16:24:46.719  INFO 83940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-26 16:24:46.724  INFO 83940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 16:24:46.740  WARN 83940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26 16:24:46.859  INFO 83940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-26 16:24:46.864  INFO 83940 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.459 seconds (JVM running for 1.634)
+2024-08-26 16:26:24.096  INFO 83940 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 16:26:24.098  INFO 83940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-26 16:26:24.104  INFO 83940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
